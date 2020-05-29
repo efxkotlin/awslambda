@@ -1,9 +1,15 @@
 # AWS Lambda samples
 
-This module contains simple lambdas before diving in to complex scenarios. Function accepts a pair of strings and return if they are anagrams of each other.
+This module contains simple lambdas before diving in to complex scenarios. 
+
+
+Function | Description 
+--- | --- 
+SimpleKotlinLambda.handleCheckAnagram | Function accepts a pair of strings and return if they are anagrams of each other. 
+ContextAndEnvLambda.handleContextRequest | Lambda to return some of the context (wrt Lambda) information to the caller, if the input matches the environment variable. 
 
 ### Steps to follow
-* Install AWS Cli and SAM Cli and configure aws credentials.
+* Install AWS CLI and SAM CLI and configure aws credentials.
 * Create the file template.yaml to specify the lambda properties
 ```
 AWSTemplateFormatVersion: 2010-09-09

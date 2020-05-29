@@ -1,1 +1,1 @@
-[true]
+{"logStreamName":"2020/05/29/[$LATEST]99f876d3723542c991766953dc9fe60c","logGroupName":"/aws/lambda/SimpleLambda"}

@@ -9,5 +9,8 @@ Resources:
       FunctionName: SimpleLambda
       Runtime: java8
       MemorySize: 512
-      Handler: com.efxcode.aws.SimpleKotlinLambda::checkIfAnagram #the method to invoke
+      Handler: com.efxcode.aws.ContextAndEnvLambda::handleContextRequest  #the method to invoke
       CodeUri: target/lambda.jar
+      Environment:
+        Variables:
+          REQ_AUTH_NAME: cq#28gb
