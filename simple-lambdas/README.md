@@ -1,4 +1,4 @@
-#AWS Lambda samples
+# AWS Lambda samples
 
 This module contains simple lambdas before we dive in to complex scenarios. <br>
 Function accepts a pair of strings and return if they are anagrams of each other.
