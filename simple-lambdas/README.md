@@ -5,7 +5,7 @@ This module contains simple lambdas before diving in to complex scenarios.
 
 Function | Description 
 --- | --- 
-SimpleKotlinLambda.handleCheckAnagram | Function accepts a pair of strings and return if they are anagrams of each other. 
+SimpleKotlinLambda.handleCheckAnagram | Lambda accepts a pair of strings and return if they are anagrams of each other. 
 ContextAndEnvLambda.handleContextRequest | Lambda to return some of the context (wrt Lambda) information to the caller, if the input matches the environment variable. 
 
 ### Steps to follow
