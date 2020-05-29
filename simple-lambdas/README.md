@@ -1,7 +1,6 @@
 # AWS Lambda samples
 
-This module contains simple lambdas before we dive in to complex scenarios. <br>
-Function accepts a pair of strings and return if they are anagrams of each other.
+This module contains simple lambdas before diving in to complex scenarios. Function accepts a pair of strings and return if they are anagrams of each other.
 
 ### Steps to follow
 * Install AWS Cli and SAM Cli and configure aws credentials.
