@@ -7,14 +7,12 @@ a zip file format rather than an "Uberjar".
 
 ### Steps to follow
 
+* Create S3 bucket for storing temporary deployment artifacts (referred to as $CF_BUCKET below)
 * `export CF_BUCKET= your_s3_bucket_name`
-* Created: An AWS account, and an S3 bucket for storing temporary deployment artifacts (referred to as $CF_BUCKET below)
 * Installed: AWS CLI, SAM CLI
 * Configured: AWS credentials
-
 * `./mvnw package`
 * `sam deploy --s3-bucket your_bucket_name --stack-name SimpleLambdaZip --capabilities CAPABILITY_IAM --region your_region`
-
 * Invoke the function
 ``` 
 aws lambda invoke --invocation-type RequestResponse \
